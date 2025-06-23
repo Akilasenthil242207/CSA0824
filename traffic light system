@@ -1,0 +1,11 @@
+c=input("enter the color of the signal:")
+if(c=="green"):
+    print("go")
+elif(c=="yellow"):
+    print("get ready")
+else:
+    print("stop")
+output
+"enter the color of the signal:green
+go
+
