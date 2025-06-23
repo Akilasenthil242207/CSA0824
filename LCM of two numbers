@@ -1,0 +1,18 @@
+def find_lcm(a, b):
+    # Start with the bigger of the two numbers
+    lcm = max(a, b)
+    
+    while True:
+        if lcm % a == 0 and lcm % b == 0:
+            return lcm
+        lcm += 1
+
+# Example usage
+num1 = int(input("Enter first number:\n "))
+num2 = int(input("Enter second number:\n "))
+
+print(f"LCM of {num1} and {num2} is {find_lcm(num1, num2)}")
+output
+Enter first number:
+Enter second number:
+LCM of 3 and 6 is 6
