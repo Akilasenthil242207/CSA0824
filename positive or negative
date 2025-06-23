@@ -1,0 +1,8 @@
+a=eval(input("enter the value for a:\n"))
+if(a>=0):
+    print("the number is positive")
+else:
+     print("the number is negative")
+output
+enter the value for a:5
+the number is positive
