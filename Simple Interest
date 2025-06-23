@@ -1,0 +1,22 @@
+principal = float(input("Enter Principal amount: "))
+time = float(input("Enter Time (in years): "))
+age = int(input("Enter Age: "))
+if age >= 60:
+    rate = 12  
+else:
+    rate = 10 
+interest = (principal * rate * time) / 100
+print(f"Applicable Rate = {rate}%")
+print(f"Simple Interest = {interest:.2f}")
+OUTPUT 
+Enter Principal amount: 200000
+Enter Time (in years): 45
+Enter Age: 89
+Applicable Rate = 12%
+Simple Interest = 1080000.00
+
+Enter Principal amount: 200000
+Enter Time (in years): 4
+Enter Age: 56
+Applicable Rate = 10%
+Simple Interest = 80000.00
