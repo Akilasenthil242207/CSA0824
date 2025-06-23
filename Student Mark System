@@ -1,0 +1,16 @@
+m=int(input("enter the mark of the student:"))
+if(m>=90):
+    print("the student has scored grade A")
+elif(m>=80):
+     print("the student has scored grade B")
+elif(m>=70):
+     print("the student has scored grade C")
+elif(m>=50):
+     print("the student has scored grade D")
+else:
+     print("the student has Failed in the exam")
+output
+enter the mark of the student:92
+the student has scored grade A
+
+
