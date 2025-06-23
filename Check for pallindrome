@@ -1,0 +1,14 @@
+n=int(input("enter the number to check pallindrome :"))
+rev=0
+temp=n
+while(n!=0):
+    digit=n%10
+    rev=rev*10+digit
+    n=n//10
+if(rev==temp):
+    print("the number is an pallindrome")
+else:
+    print("the numner is not an pallindrome")
+output
+  enter the number to check pallindrome :121
+  the number is an pallindrome
