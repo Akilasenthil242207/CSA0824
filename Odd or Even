@@ -1,0 +1,9 @@
+#odd or even
+a=eval(input("enter the number :"))
+if(a%2==0):
+    print("the number is even")
+else:
+    print("the number is odd")
+OUTPUT
+enter the number :67
+the number is odd
